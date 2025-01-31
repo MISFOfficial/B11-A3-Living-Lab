@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,36 +29,43 @@
 </head>
 <body class="font-soar">
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
-        <nav class="bg-[FFFFFF] flex flex-row items-center justify-between h-[70px] lg:mt-[24px] pl-[16px] pr-[16px] border-[0.5px] border-[#179800] lg:border-none md:pt-[24px] md:pb-[24px]  md:pl-[140px] md:pr-[140px]">
-            
-           <img src="c2-assets/logo-header.png" alt="">
-           <div class="hidden items-center lg:contents">
+        <nav class="flex items-center justify-between p-[16px] md:px-[140px] border-[1px] border-[#179800] ">
+            <!-- Left Side -->
+            <div class="flex-1 hidden lg:flex">
+                <img src="c2-assets/logo-header.png" alt="" class=" md:w-[154px] ">
+            </div>
+            <div class="flex-1 flex lg:hidden">
+                <img src="c2-assets/Group (1).png" alt="" class="w-[48px]">
+            </div>
+    
+            <!-- Middle Side -->
+            <div class="hidden lg:flex flex-1 justify-center">
                 <ul class="flex gap-x-[32px]">
                     <a href=""><li>Product</li></a>
                     <a href=""><li>Services</li></a>
                     <a href=""><li>Contact us</li></a>
                 </ul>
             </div>
-           <div class="hidden  items-center justify-between lg:contents">
-            <div class="flex items-center gap-x-[30px]">
-                <i class="fa-solid fa-magnifying-glass "></i>
+    
+            <!-- Right Side -->
+            <div class="flex-1 hidden lg:flex justify-end items-center gap-x-[30px]">
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
                 <div class="flex gap-x-[12px]">
-                    <button class="btn bg-transparent font-normal hover:text-black hover:bg-[white] px-[30px] py-10px rounded-[8px] border-[#179800] border-[1x] text-black">Login</button>
-                    <button class="btn bg-[#179800] font-normal hover:text-black hover:bg-[white] px-[30px] py-10px rounded-[8px] text-white">Register</button>
+                    <button class="btn bg-transparent font-normal hover:text-black hover:bg-[white] px-[30px] py-[10px] rounded-[8px] border-[#179800] border-[1px] text-black">Login</button>
+                    <button class="btn bg-[#179800] font-normal hover:text-black hover:bg-[white] px-[30px] py-[10px] rounded-[8px] text-white">Register</button>
                 </div>
             </div>
-           </div>
-           <div>
-          </div>
-          <div class="lg:hidden">
-            <i class="fa-solid fa-bars"></i>
-          </div>
+    
+            <!-- Mobile Menu Icon -->
+            <div class="lg:hidden text-[22px] text-[#179800]">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
 
         <!--bannder section-->
-        <section class="bg-[FFFFFF] flex flex-col items-center justify-center mt-[114px]">
-            <h1 class="text-center text-[32px] md:text-[56px] font-semibold">Freshness <span class="text-[#179800]">You Can <br>
+        <section class="bg-[FFFFFF] flex flex-col items-center justify-center p-[16px] md:px-[140px] mt-[48px] md:mt-[114px]">
+            <h1 class="text-center text-[32px] md:text-[56px] font-semibold">Freshness<span class="text-[#179800]">You Can <br>
                 Count On,</span> Prices You’ll Love!</h1>
               <p class="text-center text-[16px] md:text-[20px] mt-[32px]">  Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
               <img src="c2-assets/hero-vegetables.png" alt="" class="mt-[16px] md:mt-[37px]">
@@ -66,41 +73,8 @@
     </header>
 
     <!--main section-->
-    <main class="p-[140px] ">
-        <!--Services section-->
-        <section class="bg-[#FFFFFF]">
-            <div>
-                <h1 class="text-[#179800] text-[36px] font-semibold">Services</h1>
-                <div class="flex flex-row items-center justify-center gap-x-[24px] mt-[48px]">
-                    <!--servise-->
-                    <div class="flex flex-col justify-center items-center bg-[#EFEBE3] p-[32px] rounded-[16px] w-[424px]">
-                        <div class="bg-white w-[150px] h-[150px] rounded-[50%] flex items-center justify-center">
-                            <img src="c2-assets/service.png" alt="" >
-                        </div>
-                        <h1 class="mt-[24px] text-[24px] font-semibold">Fast Delivery</h1>
-                        <p class="text-center mt-[12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                    </div>    
-
-                    <!--fast delivery-->
-                    <div class="flex flex-col justify-center items-center bg-[#EFEBE3] p-[32px] rounded-[16px] w-[424px]">
-                        <div class="bg-white w-[150px] h-[150px] rounded-[50%] flex items-center justify-center">
-                            <img src="c2-assets/delivery.png" alt="" >
-                        </div>
-                        <h1 class="mt-[24px] text-[24px] font-semibold">Healthy Products </h1>
-                        <p class="text-center mt-[12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                    </div>  
-
-                    <!--healthy products-->
-                    <div class="flex flex-col justify-center items-center bg-[#EFEBE3] p-[32px] rounded-[16px] w-[424px]">
-                        <div class="bg-white w-[150px] h-[150px] rounded-[50%] flex items-center justify-center">
-                            <img src="c2-assets/healthy.png" alt="" >
-                        </div>
-                        <h1 class="mt-[24px] text-[24px] font-semibold">24/7 Services </h1>
-                        <p class="text-center mt-[12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                    </div>                 
-                </div>
-            </div>
-        </section>
+    <main class="">
+        
     </main>
 
     <!--footer-->
